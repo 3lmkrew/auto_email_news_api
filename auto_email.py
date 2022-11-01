@@ -1,6 +1,6 @@
 import smtplib
 
-gmail_app_pass = "zlenwdpvigzysjdp"
+gmail_app_pass = "YOUR_GMAIL_PASSWORD_GOES_HERE"
 
 
 class EmailOut:
