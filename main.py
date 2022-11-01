@@ -24,7 +24,7 @@ def news_email():
     new_body = f"Hello {first_name} {last_name}," \
                f"\n\tCheck out the top Headlines from {interest}!\n\n{my_data_list}\n\n" \
                f"Have a Lovely Day,\n{first_name} {last_name}"
-    email_out = EmailOut(sender_email="lbcbeef@gmail.com",  # Send email to each person on xlsx file
+    email_out = EmailOut(sender_email="YOUR_SENDING_EMAIL_HERE",  # Send email to each person on xlsx file
                          receiver_email=email,
                          subject=f"Latest news about {interest}",
                          body=new_body)
