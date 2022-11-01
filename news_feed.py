@@ -5,7 +5,7 @@ import requests
 
 class NewsFeed:
     """ Creates a news feed object that holds API key, URL and requires interest parameter"""
-    api_key = "7d0cf35cf6cc4dbeaad6ef23f2238f3b"
+    api_key = "YOUR_NEWSAPI.ORG_API_KEY_HERE"
     url = f"https://newsapi.org/v2/top-headlines?"
 
     def __init__(self, interest, message=""):
